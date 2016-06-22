@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    padding:0px;
+    margin:0px;   
+}
+.gen-wrapper{
+    max-width: 988px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+header{
+    background-color: #3b5998;
+    width:100%;
+    height:82px;
+    border-bottom:1px solid #133783; 
+    float:left;
+}
+.logo{
+    padding-top: 30px;
+    padding-bottom: 18px;
+    max-width: 172px;
+    float: left;
+}
+.logo img{
+    width:170px;
+    height:34px;
+}
+.login-section{
+    float: right;
+    padding-top: 5px;
+}
+.login-section ul{
+    text-decoration: none;
+}
+/*creatershaikh60@gmail.com*/
+.login-section ul li{
+    list-style: none;
+    float:left;
+    margin-right: 14px;
+}
+.login-section input {
+    width: 149px;
+    height: 23px;
+    border: solid 1px #1d2a5b;
+    padding:2px;
+}
+.login-section button {
+    border: solid 1px #29487d;
+    background-color: #4267b2;
+    padding: 5px 7px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 11px;
+    border-radius: 2px;
+    margin-top: 17px;
+}
+.login-section button:hover{
+    background-color: #365899;
+    border-color: #29487d;
+}
+.login-section p {
+    font-size: 11px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 6px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.forget-accoount a{
+    text-decoration: none;
+    color:#9cb4d8;
+}
+p.forget-accoount{
+    padding-top: 4px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+p.forget-accoount:hover{
+    text-decoration: underline;
+}
+/*Header Ends*/
+
+section.signup{
+    width:100%;
+    background:linear-gradient(#fff, #d3d8e8);
+    float:left;
+    padding:31px 0px;
+}
+.signup-left{
+    float:left;
+    width: 499px;
+}
+.signup-left p{
+    font-size: 19px;
+    color:#0e385f;
+    font-weight: bold;
+    line-height: 27px;
+}
+.signup-right{
+    float: left;
+    padding: 0px 20px 0px 71px;
+    width: 396px
+}
+.signup-right h1{
+    font-size: 36px;
+    margin: 0px;
+    font-weight: normal;
+    color: #333;
+}
+.signup-right p{
+    font-size: 19px;
+    color: #1d2129;
+    margin: 0px;
+    font-weight: normal;
+    padding: 8px 0px 15px 3px;
+}
+.signup-right form input.full-width{
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px 9px;
+    border: solid 1px #bdc7d8;
+    margin: 6px;
+    margin-left: 0px;
+    font-size: 17px;
+    color:#000;
+}
+.signup-right form input.top-input-width{
+    width:48.5%;
+    border-radius: 6px;
+    padding: 10px 9px;
+    border: solid 1px #bdc7d8;
+    margin: 6px;
+    margin-left: 0px;
+    font-size: 17px;
+    color:#000;
+}
+.signup-right form input.clear-margin{
+    margin-right:0px;
+}
+.signup-right form p {
+    padding: 8px 0px 3px 3px;
+}
+/*creatershaikh60@gmail.com*/
+.signup-right ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+.signup-right ul li{
+    float:left;
+}
+.birthday-details{
+    padding-top:2px;
+}
+.birthday-details select{
+    padding: 5px;
+}
+.signup-right ul li:last-child{
+    width: 150px;
+    font-size: 11px;
+    margin-left: 12px;
+    letter-spacing: 0px;
+    line-height: 15px;
+}
+.signup-right ul li:last-child a{
+    text-decoration: none;
+    color:#365899;
+}
+.signup-right ul li:last-child a:hover{
+    text-decoration: underline;
+}
+/*creatershaikh60@gmail.com*/
+.gender{
+    float:left;
+    width:100%;
+    padding-top: 21px;
+}
+.gender label{
+    font-size: 19px;
+    color: #1d2129;
+    margin: 0px;
+    font-weight: normal;
+}
+.gender input{
+    width:30px;
+    margin: 0px;
+}
+input.creat-submit-button{
+    border: solid 1px #37711a;
+    background: linear-gradient(#79bc64, #578843);
+    padding: 8px 28px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 17px;
+    box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
+    cursor: pointer;
+    text-shadow: 0 1px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+p.read-agrement{
+    width:78%;
+    float: left;
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 15px;
+    color:#777;
+}
+p.read-agrement a{
+   text-decoration: none;
+   color:#365899;
+}
+p.read-agrement a:hover{
+   text-decoration: underline;
+}
+p.celebrity-page{
+    width:100%;
+    font-size: 12px;
+    font-weight: bold;
+    color:#64656a;
+}
+.celebrity-page a{
+    text-decoration:none;
+    color:#365899;
+}
+.celebrity-page a:hover{
+    text-decoration:underline;
+}
+/* form section Ends*/
+footer{
+    padding:30px 0px;
+    width:100%;
+    float:left;
+}
+.footer-items{
+    width:100%;
+    float:left;
+}
+.footer-items ul{
+    list-style: none;
+    margin:0px;
+    padding:0px;
+}
+.footer-items ul li{
+    float: left;
+    margin: 11px 24px 11px 0px;
+    font-size: 12px;
+}
+.footer-items ul li a{
+    text-decoration: none;
+    color:#365899;
+}
+.footer-items ul li a:hover{
+    text-decoration: underline;
+}
+hr {
+    margin: 0px;
+    color: #365899;
+}
+.copyright{
+    width: 100%;
+    font-size: 11px;
+    color: #262729;
+    padding-top: 66px;
+}
